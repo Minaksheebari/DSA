@@ -1,10 +1,11 @@
 def quickSort(arr):
-    
+    if not arr:
+        return []
     larr=[]
     rarr=[]
     pi = arr[0]
-    for i in range(arr[1],len(arr)):
-        if(i<=pi):
+    for i in range(1,len(arr)):
+        if(arr[i]<=pi):
             larr.append(arr[i])
         else:
             rarr.append(arr[i])
@@ -14,5 +15,5 @@ def quickSort(arr):
 arr = [5,4,1,6,8,2]
 print(arr)
 sorted = quickSort(arr)
-print(arr)
+print(sorted)
 

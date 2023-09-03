@@ -8,5 +8,6 @@ def __bubblesort__(arr):
                 arr[j+1],arr[j]=arr[j],arr[j+1]
 
 arr = [5,6,7,8,9,3]
+print(arr)
 __bubblesort__(arr)
 print(arr)
