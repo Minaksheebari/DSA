@@ -1,0 +1,19 @@
+Time complexity - The code takes time to show result i.r the time gap between request and response.
+
+To show time complexity we use Big O notation.
+
+O(n) - no fixed size of data structure 
+O(n2) square - Nested loops with no fixed size
+
+Optimal code - O(n) and 
+O(log n) - array is reducing in half- again half eg. binary search
+
+
+O(n log n) - Searching O(n) + binary search O(log n) = Merge sort
+
+
+check time complexity for programs.
+
+Use of TC - simple logic with less time complexity.
+Everyone can be a programmar but everyone can not be a good programmer. 
+
